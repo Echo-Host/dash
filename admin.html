@@ -283,15 +283,16 @@
 
     <!--login-->
     <script>
-        (function() {
+(function() {
     // Vérifie si l'utilisateur est authentifié
     const isAuthenticated = localStorage.getItem('isAuthenticated');
 
+    // Si l'utilisateur n'est pas authentifié, on le redirige vers index.html
     if (isAuthenticated !== 'true') {
-        // Redirection vers la page d'accueil (index.html) si non authentifié
         window.location.href = 'index.html';
     }
 })();
+
     </script>
     
 </body>
