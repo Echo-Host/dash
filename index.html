@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        :root {
+            --body-bg: #fafafb;
+            --box-bg: #ffffff;
+            --main-color: #0652dd;
+            --text-color: #455560;
+            --border-color: #e9e9e9;
+            --box-border-radius: 15px;
+            --shadow: 0 1px 4px -1px rgb(0 0 0 / 15%);
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+            background-color: var(--body-bg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: var(--text-color);
+        }
+
+        .login-container {
+            background-color: var(--box-bg);
+            padding: 30px;
+            border-radius: var(--box-border-radius);
+            box-shadow: var(--shadow);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+        }
+
+        .login-btn {
+            background-color: var(--main-color);
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .login-btn:hover {
+            background-color: #0549bd;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button class="login-btn" onclick="login()">Login</button>
+        <p id="error-message" class="error"></p>
+    </div>
+
+
+            <script src="js/javascript/datacenter/data.js"></script>
+            <php src="php/login.php"></php>
+
+
+</body>
+</html>
