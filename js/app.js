@@ -29,7 +29,7 @@ category_chart.render()
 let customer_options = {
     series: [{
         name: "Profit",
-        data: [0, 0, 0, 0, 0, 0, 0, 0, -3730, 30, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, -3730, 0, 0, 0]
     },{
         name: "Orders",
         data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
