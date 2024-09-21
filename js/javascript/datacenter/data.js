@@ -14,7 +14,10 @@ function login() {
         errorMessage.textContent = atob("TG9naW4gc3VjY2Vzc2Z1bCE=");
         errorMessage.style.color = "green";
 
-        // Redirection après 1 seconde
+        // Stocker une variable indiquant que l'utilisateur est connecté
+        localStorage.setItem('isAuthenticated', 'true');
+
+        // Redirection vers admin.html après 1 seconde
         setTimeout(() => {
             const path = [String.fromCharCode(97), String.fromCharCode(100), String.fromCharCode(109), String.fromCharCode(105), String.fromCharCode(110), '.', 'h', 't', 'm', 'l'].join('');
             window.location.href = path;
