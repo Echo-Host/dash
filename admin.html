@@ -36,10 +36,20 @@
                     Loris La Tegola
                 </div>
             </div>
-            <a href="index.html" class="btn btn-outline">
-                <i class='bx bx-log-out bx-flip-horizontal'></i>
-            </a>
-        </div>
+<a href="#" class="btn btn-outline" onclick="logout()">
+    <i class='bx bx-log-out bx-flip-horizontal'></i>
+</a>
+
+<script>
+    function logout() {
+        // Supprimer l'authentification
+        localStorage.removeItem('isAuthenticated');
+        // Redirection vers la page d'accueil (index.html)
+        window.location.href = 'index.html';
+    }
+</script>
+
+
         <!-- SIDEBAR MENU -->
         <ul class="sidebar-menu">
             <li>
