@@ -4,6 +4,6 @@
 
     if (isAuthenticated !== 'true') {
         // Redirection vers la page de connexion si non authentifié
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     }
 })();
