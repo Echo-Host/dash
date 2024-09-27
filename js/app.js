@@ -15,8 +15,8 @@ document.querySelectorAll('.sidebar-submenu').forEach(e => {
 })
 
 let category_options = {
-    series: [6, 6, 6, 6],
-    labels: ['VPS KVM', 'VPS LXC', 'NaN', 'NaN'],
+    series: [44, 55, 41, 17],
+    labels: ['Cloths', 'Devices', 'Bags', 'Watches'],
     chart: {
         type: 'donut',
     },
@@ -28,11 +28,11 @@ category_chart.render()
 
 let customer_options = {
     series: [{
-        name: "Profit",
-        data: [0, 0, 0, 0, 0, 0, 0, 0, -3730, 0, 0, 0]
+        name: "Store Customers",
+        data: [40, 70, 20, 90, 36, 80, 30, 91, 60]
     },{
-        name: "Orders",
-        data: [0, 0, 0, 0, 0, 0, 0, 0, 684, 0, 0, 0]
+        name: "Online Customers",
+        data: [20, 30, 10, 20, 16, 40, 20, 51, 10]
     }],
     colors: ['#6ab04c', '#2980b9'],
     chart: {
@@ -46,7 +46,7 @@ let customer_options = {
         curve: 'smooth'
     },
     xaxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
     },
     legend: {
         position: 'top'
