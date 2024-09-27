@@ -1,4 +1,4 @@
-document.querySelectorAll('.sidebar-submenu').forEach(e => {
+⁸document.querySelectorAll('.sidebar-submenu').forEach(e => {
     e.querySelector('.sidebar-menu-dropdown').onclick = (event) => {
         event.preventDefault()
         e.querySelector('.sidebar-menu-dropdown .dropdown-icon').classList.toggle('active')
@@ -15,7 +15,7 @@ document.querySelectorAll('.sidebar-submenu').forEach(e => {
 })
 
 let category_options = {
-    series: [1, 0, 0, 0],
+    series: [100, 0, 0, 0],
     labels: ['VPS KVM', 'VPS LXC', 'NaN', 'NaN'],
     chart: {
         type: 'donut',
@@ -32,7 +32,7 @@ let customer_options = {
         data: [0, 0, 0, 0, 0, 0, 0, 0, -3730, 0, 0, 0]
     },{
         name: "Orders",
-        data: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 01, 0, 0, 0]
     }],
     colors: ['#6ab04c', '#2980b9'],
     chart: {
