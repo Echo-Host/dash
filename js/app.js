@@ -15,7 +15,7 @@
 })
 
 let category_options = {
-    series: [1, 1, 2, 1],
+    series: [1, 0, 0, 0],
     labels: ['VPS KVM', 'VPS LXC', 'NaN', 'NaN'],
     chart: {
         type: 'donut',
@@ -32,7 +32,7 @@ let customer_options = {
         data: [0, 0, 0, 0, 0, 0, 0, 0, -3730, 0, 0, 0]
     },{
         name: "Orders",
-        data: [0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
     }],
     colors: ['#6ab04c', '#2980b9'],
     chart: {
