@@ -31,10 +31,14 @@ let customer_options = {
         name: "Profit",
         data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     },{
+        {
+        name: "Tickets open",
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },{
         name: "Orders",
         data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     }],
-    colors: ['#6ab04c', '#2980b9'],
+    colors: ['#6ab04c', '#d111a1', '#2980b9'],
     chart: {
         height: 350,
         type: 'line',
