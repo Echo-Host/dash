@@ -33,7 +33,7 @@ let customer_options = {
     },{
         {
         name: "Tickets open",
-        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0]
     },{
         name: "Orders",
         data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
