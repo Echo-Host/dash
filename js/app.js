@@ -31,7 +31,6 @@ let customer_options = {
         name: "Profit",
         data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     },{
-        {
         name: "Tickets open",
         data: [0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0]
     },{
@@ -56,6 +55,7 @@ let customer_options = {
         position: 'top'
     }
 }
+
 
 let customer_chart = new ApexCharts(document.querySelector("#customer-chart"), customer_options)
 customer_chart.render()
