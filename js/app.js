@@ -16,7 +16,7 @@ document.querySelectorAll('.sidebar-submenu').forEach(e => {
 
 let category_options = {
     series: [0, 0, 0, 0],
-    labels: ['VPS KVM', 'VPS LXC', 'NaN', 'NaN'],
+    labels: ['VPS KVM', 'VPS LXC', 'VPS Ryzen 7', 'NaN'],
     chart: {
         type: 'donut',
     },
